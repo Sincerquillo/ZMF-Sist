@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        .great-vibes-regular {
+            font-family: "Great Vibes", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: xxx-large;
+            color: white; /* Cambia el color del texto a blanco */
+           
+        }
+        .great-vibes-regular.otros {
+            font-weight: 600;
+            font-size: x-large;
+        }
+
+        .great-vibes-regular.titular{
+            background-color: white
+        }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+        .poppins-light {
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .poppins-bold {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        
+        .text-justify {
+            text-align: justify;
+        }
+
+
+        #navbar {
+            
+            position: relative;
+            width: 100%;
+        }
+
+        /* Fondo de la página en un gris muy claro */
+        
+
+        /* Container principal */
+        .container-principal {
+            width: 90%; /* 90% del ancho de la pantalla */
+            max-width: 1400px; /* Máximo de 1200px para que no se expanda demasiado en pantallas grandes */
+            background-color: white; /* Fondo blanco */
+            border-radius: 15px; /* Bordes redondeados */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+            margin: auto; /* Centrar el contenedor */
+            text-align: left;
+        }
+
+        .navbar {
+            background-color: red; /* Fondo rojo */
+            
+            border-top-left-radius: 0; /* Esquina superior izquierda recta */
+            border-top-right-radius: 0; /* Esquina superior derecha recta */
+            border-bottom-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+            border-bottom-right-radius: 15px;
+          }
+        
+
+        .img {
+            display: block;
+            float: none;
+            margin: auto; /* Espacio entre la imagen y el texto */
+            width: 350px; /* Ajusta el tamaño según necesites */
+        }
+        
+
+
+        .custom-title {
+            font-size: 6rem; /* Tamaño grande del título */
+            font-weight: 700; /* Negrita */
+            font-family: 'DM Serif Display', serif; /* Fuente elegante, similar a la imagen */
+            color: rgb(176, 10, 10); /* Color marrón oscuro aproximado */
+            line-height: 1.2; /* Ajuste de altura de línea */
+        }
+        .custom-slogan {
+            font-size: 1.2rem; /* Tamaño pequeño del eslogan */
+            color: rgb(176, 10, 10); /* Marrón claro aproximado */
+            font-style: italic; /* Estilo cursivo */
+            margin-bottom: 20px; /* Espacio debajo del eslogan */
+        }
+        .intro-text {
+            font-size: 1.1rem; /* Tamaño del párrafo */
+            color: #333; /* Color de texto oscuro */
+            max-width: 600px; /* Limita el ancho del texto */
+            margin: 0 auto; /* Centra el párrafo */
+            text-align: center; /* Alineación centrada */
+        }
+
+
+
+        html {
+            scroll-behavior: smooth; /* Desplazamiento suave */
+        }
+        
+        .gradient-title {
+            background: linear-gradient(to right, #c20000, #5e1919);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
+
+          
+        .spacer {
+            margin: 20px; /* Margen uniforme de 20px en todos los lados */
+        }
+
+
+        .btn-custom {
+            background-color: #8b4513; /* Marrón claro */
+            border-color: #8b4513;
+            color: #fff; /* Texto blanco */
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn-custom:hover {
+            background-color: #6b2e0e; /* Marrón más oscuro al pasar el mouse */
+            border-color: #6b2e0e;
+        }
+
+
+        /* Personalizar el acordeón */
+        .accordion-button {
+            background-color: #f8f9fa; /* Fondo claro por defecto */
+            color: #333; /* Color del texto por defecto */
+        }
+
+        /* Cuando el botón está activo (expandido) */
+        .accordion-button:not(.collapsed) {
+            background-color: #ff6b6b; /* Rojo claro */
+            color: #fff;
+            font-weight: bold; /* Texto blanco para contraste */
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); /* Sombra interna para mantener el diseño */
+        }
+
+        /* Opcional: ajustar el fondo del cuerpo del acordeón */
+        .accordion-body {
+            background-color: #fff5f5; /* Fondo muy claro con un toque rojizo */
+        }
+
+
+
+
+
+
+        .flip-card {
+            width: 350px;
+            height: 350px;
+            perspective: 1000px; /* Da profundidad al giro */
+          }
+      
+          .flip-card-inner {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+          }
+      
+          .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg); /* Gira la carta */
+          }
+      
+          .flip-card-front, .flip-card-back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            overflow: hidden;
+          }
+      
+          .flip-card-front {
+            background-color: #fff;
+          }
+      
+          .flip-card-front img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajusta la imagen sin deformarla */
+          }
+      
+          .flip-card-back {
+            background-color: #f8f9fa;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            transform: rotateY(180deg);
+            text-align: center;
+          }
+      
+          .flip-card-back p {
+            flex-grow: 1; /* Asegura que el texto ocupe el espacio necesario */
+          }
+
+
+
+
+
+
+
+
+
+
+        .contenedor-flex {
+            display: flex;
+            flex-wrap: wrap; /* Permite que las secciones se acomoden en columna en pantallas pequeñas */
+            justify-content: space-between; /* Espacio entre las secciones */
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .plato-del-dia, .picaderas-refrigerios {
+            flex: 1; /* Ambas secciones ocuparán el mismo espacio */
+            min-width: 300px; /* Evita que sean demasiado pequeñas */
+            max-width: 48%; /* Para que no sean demasiado anchas */
+        }
+        
+        /* Imagen ancha debajo */
+        .imagen-inferior {
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente si la imagen tiene más altura que su contenedor */
+            margin-top: 20px;
+        }
+        
+        .imagen-inferior img {
+            width: 85%;
+            max-height: 250px; /* Controla la altura de la imagen */
+            object-fit: cover; /* Ajusta la imagen sin distorsión */
+            border-radius: 10px; /* Bordes redondeados sutiles */
+        }
+        
+        /* Diseño responsivo para móviles */
+        @media (max-width: 768px) {
+            .contenedor-flex {
+                flex-direction: column; /* Apila las secciones en pantallas pequeñas */
+                align-items: center;
+            }
+        
+            .plato-del-dia, .picaderas-refrigerios {
+                max-width: 100%;
+            }
+        
+            .imagen-inferior img {
+                max-height: 180px; /* Reduce la altura en móviles */
+            }
+        }
+        
+        .rapidito:hover{
+            background-color: whitesmoke;
+            
+        }
+
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .iframe-container iframe {
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            width: 45%;
+            height: 300px;
+        }
+        @media (max-width: 768px) {
+            .iframe-container iframe {
+                width: 100%;
+            }
+        }
+
+
+
+        body {
+            
+            
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Estilos para el modo oscuro */
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .btn-dark-mode {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
