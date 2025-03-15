@@ -4,7 +4,7 @@
             font-weight: 500;
             font-style: normal;
             font-size: xxx-large;
-            color: white; /* Cambia el color del texto a blanco */
+            color: white; 
            
         }
         .great-vibes-regular.otros {
@@ -48,26 +48,25 @@
             width: 100%;
         }
 
-        /* Fondo de la página en un gris muy claro */
         
 
-        /* Container principal */
+        
         .container-principal {
-            width: 90%; /* 90% del ancho de la pantalla */
-            max-width: 1400px; /* Máximo de 1200px para que no se expanda demasiado en pantallas grandes */
-            background-color: white; /* Fondo blanco */
-            border-radius: 15px; /* Bordes redondeados */
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra sutil */
-            margin: auto; /* Centrar el contenedor */
+            width: 90%; 
+            max-width: 1400px; 
+            background-color: white; 
+            border-radius: 15px; 
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+            margin: auto; 
             text-align: left;
         }
 
         .navbar {
-            background-color: red; /* Fondo rojo */
+            background-color: red; 
             
-            border-top-left-radius: 0; /* Esquina superior izquierda recta */
-            border-top-right-radius: 0; /* Esquina superior derecha recta */
-            border-bottom-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+            border-top-left-radius: 0;
+            border-top-right-radius: 0; 
+            border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
           }
         
@@ -75,37 +74,37 @@
         .img {
             display: block;
             float: none;
-            margin: auto; /* Espacio entre la imagen y el texto */
-            width: 350px; /* Ajusta el tamaño según necesites */
+            margin: auto; 
+            width: 350px; 
         }
         
 
 
         .custom-title {
-            font-size: 6rem; /* Tamaño grande del título */
-            font-weight: 700; /* Negrita */
-            font-family: 'DM Serif Display', serif; /* Fuente elegante, similar a la imagen */
-            color: rgb(176, 10, 10); /* Color marrón oscuro aproximado */
-            line-height: 1.2; /* Ajuste de altura de línea */
+            font-size: 6rem; 
+            font-weight: 700; 
+            font-family: 'DM Serif Display', serif; 
+            color: rgb(176, 10, 10); 
+            line-height: 1.2;
         }
         .custom-slogan {
-            font-size: 1.2rem; /* Tamaño pequeño del eslogan */
-            color: rgb(176, 10, 10); /* Marrón claro aproximado */
-            font-style: italic; /* Estilo cursivo */
-            margin-bottom: 20px; /* Espacio debajo del eslogan */
+            font-size: 1.2rem; 
+            color: rgb(176, 10, 10); 
+            font-style: italic; 
+            margin-bottom: 20px; 
         }
         .intro-text {
-            font-size: 1.1rem; /* Tamaño del párrafo */
-            color: #333; /* Color de texto oscuro */
-            max-width: 600px; /* Limita el ancho del texto */
-            margin: 0 auto; /* Centra el párrafo */
-            text-align: center; /* Alineación centrada */
+            font-size: 1.1rem;
+            color: #333; 
+            max-width: 600px; 
+            margin: 0 auto; 
+            text-align: center; 
         }
 
 
 
         html {
-            scroll-behavior: smooth; /* Desplazamiento suave */
+            scroll-behavior: smooth; 
         }
         
         .gradient-title {
@@ -115,8 +114,15 @@
             font-weight: bold;
         }
 
+        .gradientontontitulo {
+            background: linear-gradient(to right, #c63a10, #ff0000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
         .gradientonto {
-            background: fixed;
+            background: repeat;
             
 
         }
@@ -124,40 +130,38 @@
 
           
         .spacer {
-            margin: 20px; /* Margen uniforme de 20px en todos los lados */
+            margin: 20px; 
         }
 
 
         .btn-custom {
-            background-color: #8b4513; /* Marrón claro */
+            background-color: #8b4513; 
             border-color: #8b4513;
-            color: #fff; /* Texto blanco */
+            color: #fff; 
             transition: background-color 0.3s ease;
         }
         
         .btn-custom:hover {
-            background-color: #6b2e0e; /* Marrón más oscuro al pasar el mouse */
+            background-color: #6b2e0e; 
             border-color: #6b2e0e;
         }
 
 
-        /* Personalizar el acordeón */
         .accordion-button {
-            background-color: #f8f9fa; /* Fondo claro por defecto */
-            color: #333; /* Color del texto por defecto */
+            background-color: #f8f9fa; 
+            color: #333;
         }
 
-        /* Cuando el botón está activo (expandido) */
         .accordion-button:not(.collapsed) {
-            background-color: #ff6b6b; /* Rojo claro */
+            background-color: #ff6b6b; 
             color: #fff;
-            font-weight: bold; /* Texto blanco para contraste */
-            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); /* Sombra interna para mantener el diseño */
+            font-weight: bold; 
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); 
         }
 
-        /* Opcional: ajustar el fondo del cuerpo del acordeón */
+        
         .accordion-body {
-            background-color: #fff5f5; /* Fondo muy claro con un toque rojizo */
+            background-color: #fff5f5; 
         }
 
 
@@ -168,7 +172,7 @@
         .flip-card {
             width: 350px;
             height: 350px;
-            perspective: 1000px; /* Da profundidad al giro */
+            perspective: 1000px; 
           }
       
           .flip-card-inner {
@@ -180,7 +184,7 @@
           }
       
           .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg); /* Gira la carta */
+            transform: rotateY(180deg); 
           }
       
           .flip-card-front, .flip-card-back {
@@ -199,7 +203,7 @@
           .flip-card-front img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ajusta la imagen sin deformarla */
+            object-fit: cover; 
           }
       
           .flip-card-back {
@@ -214,51 +218,53 @@
           }
       
           .flip-card-back p {
-            flex-grow: 1; /* Asegura que el texto ocupe el espacio necesario */
+            flex-grow: 1; 
           }
 
 
 
 
 
-
+        .pie-de-pagina hr {
+            color: white;
+        }
 
 
 
 
         .contenedor-flex {
             display: flex;
-            flex-wrap: wrap; /* Permite que las secciones se acomoden en columna en pantallas pequeñas */
-            justify-content: space-between; /* Espacio entre las secciones */
+            flex-wrap: wrap; 
+            justify-content: space-between; 
             gap: 20px;
             padding: 20px;
         }
         
         .plato-del-dia, .picaderas-refrigerios {
-            flex: 1; /* Ambas secciones ocuparán el mismo espacio */
-            min-width: 300px; /* Evita que sean demasiado pequeñas */
-            max-width: 48%; /* Para que no sean demasiado anchas */
+            flex: 1;
+            min-width: 300px; 
+            max-width: 48%;
         }
         
-        /* Imagen ancha debajo */
+        
         .imagen-inferior {
             display: flex;
-            justify-content: center; /* Centra horizontalmente */
-            align-items: center; /* Centra verticalmente si la imagen tiene más altura que su contenedor */
+            justify-content: center; 
+            align-items: center; 
             margin-top: 20px;
         }
         
         .imagen-inferior img {
             width: 85%;
-            max-height: 250px; /* Controla la altura de la imagen */
-            object-fit: cover; /* Ajusta la imagen sin distorsión */
-            border-radius: 10px; /* Bordes redondeados sutiles */
+            max-height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px; 
         }
         
-        /* Diseño responsivo para móviles */
+        
         @media (max-width: 768px) {
             .contenedor-flex {
-                flex-direction: column; /* Apila las secciones en pantallas pequeñas */
+                flex-direction: column; 
                 align-items: center;
             }
         
@@ -267,7 +273,7 @@
             }
         
             .imagen-inferior img {
-                max-height: 180px; /* Reduce la altura en móviles */
+                max-height: 180px; 
             }
         }
         
@@ -283,14 +289,21 @@
             flex-wrap: wrap;
             padding: 20px;
         }
+
+        
         .iframe-container iframe {
             border-radius: 10px;
             border: 2px solid #ddd;
             width: 45%;
             height: 300px;
         }
-        @media (max-width: 768px) {
+
+        @media (max-width: 900px) {
             .iframe-container iframe {
+                width: 100%;
+
+            }
+            .container-principal {
                 width: 100%;
             }
         }
@@ -301,8 +314,30 @@
             background-color: whitesmoke;
         }
 
-        @media (max-width: 768){
+        @media (max-width: 800px){
             .container-principal{
                 width: 100%;
             }
+            .ocultar-en-movil {
+                display: none;
+              }
         }
+
+        .back-to-top i {
+            font-size: 2rem; 
+            transform: rotate(180deg); 
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+            color: white;
+            display: inline-block; 
+        }
+    
+        
+        .back-to-top:hover i {
+            transform: rotate(540deg);
+            color: red; 
+        }
+
+
+
+
+        
